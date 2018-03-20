@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniERP.Core", "MiniERP.Core\MiniERP.Core.csproj", "{732B2C6A-49E5-4201-B2C9-4625255E811E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniERP.UI.ConsoleApp", "MiniERP.UI.ConsoleApp\MiniERP.UI.ConsoleApp.csproj", "{406843E1-E2FB-477D-AADE-08F755FA042F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniERP.TestUnitTest", "MiniERP.TestUnitTest\MiniERP.TestUnitTest.csproj", "{798B8358-6084-4467-9B5A-AF6F92A364D7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{732B2C6A-49E5-4201-B2C9-4625255E811E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732B2C6A-49E5-4201-B2C9-4625255E811E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732B2C6A-49E5-4201-B2C9-4625255E811E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732B2C6A-49E5-4201-B2C9-4625255E811E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406843E1-E2FB-477D-AADE-08F755FA042F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406843E1-E2FB-477D-AADE-08F755FA042F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406843E1-E2FB-477D-AADE-08F755FA042F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406843E1-E2FB-477D-AADE-08F755FA042F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798B8358-6084-4467-9B5A-AF6F92A364D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798B8358-6084-4467-9B5A-AF6F92A364D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798B8358-6084-4467-9B5A-AF6F92A364D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798B8358-6084-4467-9B5A-AF6F92A364D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
